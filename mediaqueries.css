@@ -1,0 +1,75 @@
+@media screen and (max-width: 1400px) {
+    #hook {
+        height: 83vh;
+        margin-bottom: 5rem;
+    }
+    .about-container {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #desktop-nav {
+        display:none;
+    }
+    #mobile-nav {
+        display:flex;
+    }
+    #experience, .experience-container {
+        margin-top: 2rem;
+    }
+    #hook, .section-container {
+        display: block;
+    }
+    section, .section-container {
+        height:fit-content;
+        flex-wrap: wrap;
+    }
+    section {
+        margin:0 5%;
+        padding-bottom: 5%;
+    }
+    .section-picture-container {
+        width:275px;
+        height:275px;
+        margin: 0 auto 2rem;
+    }
+    .about-container {
+        margin-top: 0;
+    }
+    .name-container {
+        gap:0.3rem;
+    }
+    .two-col-container{
+        width: 100%;
+    }
+    #hook .section-text{
+        line-height: 1.5rem;
+    }
+    #hook .section-text-head1 {
+        font-size: 1.3rem;
+    }
+    #hook .section-text-emphasis {
+        font-size: 1.7rem;
+    }
+    .projects-container{
+        margin-bottom: 5%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    #hook {
+        height: 83vh;
+        margin-bottom: 0;
+    }
+    article {
+        font-size: 1rem;
+    }
+    .about-container, .accounts-container {
+        flex-wrap: wrap;
+    }
+    .project-images {
+        width:300px;
+        height: auto;
+    }
+}

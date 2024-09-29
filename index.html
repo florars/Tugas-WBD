@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flora's Portofolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+        <div class="name-container">
+            <img src="./Assets/Icon.png" class="name-picture" />
+            <div class="name-icon">Maria Flora Renata Siringoringo</div>
+        </div>
+        <div>
+        <ul class="navbar-tabs">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="mobile-nav">
+        <div class="name-container">
+            <img src="./Assets/Icon.png" class="name-picture" />
+            <div class="name-icon">Maria Flora Renata Siringoringo</div>
+        </div>
+        <div class="hamburger-menu">
+            <ul class="mobile-navbar-tabs" id="mobile-navbar-tabs">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <a class="close-hamburger" href="#">
+                    <img src="./Assets/close(1).png" alt="close">
+                </a>
+            </ul>
+            <a class="hamburger-icon" href="#mobile-navbar-tabs">
+                <img src="./Assets/hamburg.png" alt="menu">
+            </a>
+        </div>
+    </nav>
+    <section id="hook">
+        <div class="section-container">
+            <div class="section-picture-container">
+                <img src="./Assets/Profpic.jpg" alt="Flora's profile picture" class="profile-picture" />
+            </div>
+            <div class="section-text">
+                <p class="section-text-head1">Hello, I'm</p>
+                <p class="section-text-emphasis">Maria <b>Flora</b> Renata Siringoringo,</p>
+                <p class="section-text-head1">an aspiring Cybersecurity Specialist</p>
+                <br>
+                <p class="section-text-normal">Undergraduate student in Informatics Engineering at Institut Teknologi Bandung, Bandung, Indonesia.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contacts">
+        <div class="accounts-container">
+            <img src="./Assets/linkedin.png" alt="Linkedin profile" class="icon" onclick="location.href='https://www.linkedin.com/in/maria-flora-renata-siringoringo-988972288/'" />
+            <img src="./Assets/github.png" alt="Github profile" class="icon" onclick="location.href='https://github.com/florars/'" />
+        </div>
+    </section>
+    <section id="about">
+        <div class="about-container">
+            <h1 class="section-title2">More about me</h1> <br> <br>
+            <div class="section-container">
+                <div class="two-col-container">
+                    <p class="section-text-normal">Informatics Engineering student at ITB, have been involved in organizations and competitions since junior high school. Currently in the 5th
+                        semester and active as BP (Badan Pengurus) in two student organizations. I like to compete in Capture the Flag (CTF) in my free time.</p> <br>
+                    <p class="section-text-head1">My interests includes:</p>
+                    <p class="section-text-normal">Cybersecurity, digital forensics, and OSINT.</p>
+                </div>
+                <br>
+                <div class="two-col-container">
+                    <p class="section-text-head1">Skills</p>
+                    <p class="section-text-normal">Programming languages: Python, C, C#, Java, Go, Prolog <br> Capture The Flag: OSINT (digital footprint and social media), digital forensics (file format, steganography, memory) <br><br>Non-CS-related: Illustration, Creative writing</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="experience">
+        <div class="experience-container">
+            <h1 class="section-title">My experiences</h1> <br> <br>
+            <div class="article-container">
+                <article>
+                    <h2 class="experience-title">Head of Project Management Division in Genshiken</h2>
+                    <p class="section-text-normal">August 2023 - May 2024<br>Supervised and archived 5 projects throughout a year.<br>Led, organized, and prepared materials for an internal leadership training.</p>
+                </article>
+                <br>
+                <article>
+                    <h2 class="experience-title">Head of External Affairs in Genshiken</h2>
+                    <p class="section-text-normal">August 2024 - Ongoing<br>Represented Genshiken in discussions with other organizations.
+                </article>
+                <br>
+                <article>
+                    <h2 class="experience-title">Member of Event Division in GIM Game Jam 2024</h2>
+                    <p class="section-text-normal">January 2024 - January 2024<br>Acted as contact between speakers for a talkshow and other members of the event division.<br>Recruited people for field jobs (i.e. MCs).<br>Conceptualized and planned the event</p>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="projects-container">
+            <h1 class="section-title2">My Past Projects</h1> <br> <br>
+            <div class="article-container">
+                <article>
+                    <h2 class="project-title">Word Ladder Solver</h2>
+                    <img src="./Assets/WordLadder.png" alt="Word ladder solver app" class="project-images" onclick="location.href='https://github.com/florars/Tubes3_Oh_hmm'" />
+                    <p class="section-text-normal">A program in Java that solves a world ladder. A word ladder is a game where you have to transform a word into another while changing one letter at a time</p>
+                </article>
+                
+                <article>
+                    <h2 class="project-title">Fingerprint Matcher to a Corrupted Database</h2>
+                    <img src="./Assets/FingerprintMatcher.png" alt="Fingerprint matcher app" class="project-images" onclick="location.href='https://github.com/florars/Tucil3_13522010'" />
+                    <p class="section-text-normal">A program in C# that uses regex and string matching algorithms to match an input fingerprint to ones in a database. The program also matches a corrupt version of the names in the fingerprint table in the database to a correct version of the name.</p>
+            </div>
+        </div>
+    </section>
+  </body>
+</html>
